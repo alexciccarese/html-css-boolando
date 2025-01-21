@@ -70,12 +70,21 @@ main {
   .item {
     width: 100%;
 
-    .content_first {
-      height: 680px;
-      position: relative;
+    .first {
       background-image: url(./img/1.webp);
+      
+    }
+
+    .second {
+      background-image: url(/assets/img/2.webp);
+    }
+
+    .content {
+      height: 600px;
+      position: relative;
       background-size: cover;
       background-position: center;
+
 
       span {
         font-size: 24px;
