@@ -74,14 +74,26 @@ main {
 
     .first {
       background-image: url(./img/1.webp);
+
+      &:hover {
+        background-image: url(./img/1b.webp);
+      }
     }
 
     .second {
       background-image: url(./img/2.webp);
+
+      &:hover {
+        background-image: url(./img/2b.webp);
+      }
     }
 
     .third {
       background-image: url(/assets/img/3.webp);
+
+      &:hover {
+        background-image: url(./img/3b.webp);
+      }
     }
   }
 
@@ -90,14 +102,25 @@ main {
     .first {
       background-image: url(./img/4.webp);
 
+      &:hover {
+        background-image: url(./img/4b.webp);
+      }
     }
 
     .second {
       background-image: url(./img/5.webp);
+
+      &:hover {
+        background-image: url(./img/5b.webp);
+      }
     }
 
     .third {
       background-image: url(/assets/img/6.webp);
+
+      &:hover {
+        background-image: url(./img/6b.webp);
+      }
     }
   }
 
