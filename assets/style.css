@@ -47,12 +47,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: wrap;
   width: 70%;
 }
 
 main {
   display: flex;
   justify-content: center;
+  padding-bottom: 3rem;
 
   section {
     gap: 1rem;
@@ -67,17 +69,40 @@ main {
     display: flex;
     justify-content: space-between;
   }
-  .item {
-    width: 100%;
+
+  .first_line {
 
     .first {
       background-image: url(./img/1.webp);
-      
     }
 
     .second {
-      background-image: url(/assets/img/2.webp);
+      background-image: url(./img/2.webp);
     }
+
+    .third {
+      background-image: url(/assets/img/3.webp);
+    }
+  }
+
+  .second_line {
+
+    .first {
+      background-image: url(./img/4.webp);
+
+    }
+
+    .second {
+      background-image: url(./img/5.webp);
+    }
+
+    .third {
+      background-image: url(/assets/img/6.webp);
+    }
+  }
+
+  .item {
+    width: 100%;
 
     .content {
       height: 600px;
@@ -99,19 +124,22 @@ main {
         font-size: 10px;
         font-weight: bold;
         color: white;
-        padding: 3px 10px;
-        position: absolute;
-        bottom: 2rem;
 
+        position: absolute;
+        left: 0;
+        bottom: 2rem;
+        display: flex;
+        gap: 4px;
       }
 
       .discount {
         background-color: var(--bo-red);
+        padding: 3px 10px;
       }
 
       .eco {
         background-color: var(--bo-green);
-        left: 46px;
+        padding: 3px 10px;
       }
 
     }
