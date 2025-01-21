@@ -218,5 +218,9 @@ footer {
   .icon {
     width: 28px;
     padding-right: 4px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
