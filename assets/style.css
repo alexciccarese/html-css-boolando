@@ -23,6 +23,10 @@ header {
   padding-top: 1rem;
   padding-bottom: 1rem;
 
+  .logo {
+    width: 120px;
+  }
+
   a {
     color: white;
     text-decoration: none;
@@ -39,9 +43,7 @@ header {
   }
 }
 
-.logo {
-  width: 120px;
-}
+
 
 .container {
   display: flex;
@@ -188,5 +190,33 @@ main {
         font-weight: 800;
       }
     }
+  }
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+
+  .rapid_link {
+    
+    a {
+      color: white;
+      text-decoration: none;
+      padding-right: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .icon {
+    width: 28px;
+    padding-right: 4px;
   }
 }
