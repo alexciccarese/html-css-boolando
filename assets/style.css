@@ -143,6 +143,11 @@ main {
         top: 0.5rem;
         background-color: white;
         padding: 4px 10px;
+
+        &:hover {
+          color: var(--bo-red);
+          cursor: pointer;
+        }
       }
 
       .info {
